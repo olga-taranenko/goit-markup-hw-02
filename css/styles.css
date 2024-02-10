@@ -25,17 +25,17 @@ body {
 
 /* ================== Page Header styles ======================= */
 .logo-header {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-firstpart {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -52,14 +52,13 @@ body {
   color: #404bbf;
 }
 
-.menu-link:active {
-  color: #404bbf;
+adress {
+  font-style: normal;
 }
 
 .link-address {
   color: #434455;
   font-family: inherit;
-  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -67,7 +66,7 @@ body {
 }
 
 .link-address:hover,
-.link-adress:focus {
+.link-address:focus {
   color: #404bbf;
 }
 /* ================== /Page Header styles ======================= */
@@ -81,7 +80,7 @@ body {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
@@ -100,11 +99,6 @@ body {
 }
 /* ================== /Hero section styles ======================= */
 
-h2,
-h3 {
-  color: 2e2F42;
-}
-
 /* ================== Benefits section styles ======================= */
 .benefits-title {
   font-size: 20px;
@@ -122,11 +116,11 @@ h3 {
 
 /* ================== Team section styles ======================= */
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
-.team-title-main,
-.portfolio-title-main {
+.team-title-main {
+  color: 2e2F42;
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
@@ -151,6 +145,15 @@ h3 {
 /* ================== /Team section styles ======================= */
 
 /* ================== Portfolio section styles ======================= */
+.portfolio-title-main {
+  color: 2e2f42;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
@@ -171,8 +174,8 @@ h3 {
 }
 
 .logo-footer {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -180,6 +183,9 @@ h3 {
   text-transform: uppercase;
 }
 
+.logo-footer-studio {
+  color: #f4f4fd;
+}
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
